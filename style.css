@@ -1,8 +1,18 @@
+@media (max-width: 600px) {
+  .site-header {
+    padding: 1rem 1.5rem;
+  }
+}
+
+.header {
+  padding: 1.5rem 3rem;
+  background-color: #0A2340;
+}
+
 h1 {
   color: #FFFFFF;
-  background-color: #0A2340;
   font-family: Calibri, sans-serif;
-  font-size: 3em;
+  font-size: clamp(2rem, 5vw, 3rem);
   text-align: left;
   font-weight: 350;
   margin: 0px;
