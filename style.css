@@ -9,7 +9,7 @@
   background-color: #0A2340;
 }
 
-h1 {
+.header h1 {
   color: #FFFFFF;
   font-family: Calibri, sans-serif;
   font-size: clamp(2rem, 5vw, 3rem);
